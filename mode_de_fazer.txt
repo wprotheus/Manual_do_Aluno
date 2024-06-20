@@ -1,0 +1,30 @@
+** Criada uma pasta/diretório local **
+
+git init
+
+touch .gitignore
+nano .gitignore -> Adicionado as informações/dados necessários
+
+touch README.md
+nano README.md -> Adicionado as informações/dados necessários
+
+touch Sumario.md
+nano Sumario.md -> Adicionado as informações/dados necessários
+
+touch Capitulo1.md
+nano Capitulo1.md -> Adicionado as informações/dados necessários
+
+touch Texto_ini.txt
+nano Texto_ini.txt -> Adicionado as informações/dados necessários
+
+git status
+git add .
+git commit -m ":tada: Atividade GCO - Manual do Aluno."
+
+git config --global user.name "e-mail do usuário"
+git config --global user.email "email@com.com"
+
+** Criação do repositório localmente ** 
+curl -H "Authorization: token **Token do Usuário" https://api.github.com/user/repos -d '{"name":"Manual_do_Aluno"}'
+
+git push -u origin master
